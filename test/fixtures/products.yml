@@ -1,0 +1,14 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+ruby_book:
+  title: Programming Ruby
+  description: Test description
+  price: 30
+  image_url: ruby.png
+
+rails_book:
+  title: Agile Web Development with Rails
+  description: Test description
+  price: 25
+  image_url: rails.png
+

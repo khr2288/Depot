@@ -1,0 +1,12 @@
+The Online Book Store
+
+This application implements an online book store, with a catalog, shopping cart, and orders.
+
+It is divided into three main sections
+
+- The buyer's facilities (catalog, cart, and checkout) implemented in the StoreController.
+
+- Admin facilities implemented in the AdminController.
+
+- Simple Web Service facilites.
+

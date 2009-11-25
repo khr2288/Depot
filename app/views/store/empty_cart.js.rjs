@@ -1,0 +1,5 @@
+page[:cart].visual_effect :opacity,
+                                  :from => 1 ,
+                                  :to => 0
+
+

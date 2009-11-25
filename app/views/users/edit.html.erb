@@ -1,0 +1,30 @@
+<h1>Editing user</h1>
+
+<div class="depot-form">
+
+  <% form_for(@user) do |f| %>
+    <%= f.error_messages %>
+
+    <fieldset>
+      <legend>Enter User Details</legend>
+      <p>
+        <%= f.label :name %><br />
+        <%= f.text_field :name %>
+      </p>
+      <p>
+        <%= f.label :user_password %><br />
+        <%= f.text_field :user_password, :size => 40 %>
+      </p>
+      <div>
+        <%= f.label :user_password_confirmation, 'Confirm' %>:
+        <%= f.password_field :password_confirmation, :size => 40 %>
+      </div>
+      <p>
+        <%= f.submit 'Update', :class => "submit" %>
+      </p>
+    </fieldset>
+  <% end %>
+</div>
+
+<%= link_to 'Show', @user %> |
+<%= link_to 'Back', users_path %>
